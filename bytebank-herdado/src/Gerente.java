@@ -3,11 +3,7 @@ public class Gerente extends Funcionario {
 
 	int senha;
 
-	@Override
-	public double getBonificacao() {
-		System.out.println("Bonificacao do gerente");
-		return super.getBonificacao() + 300;
-	}
+	
 
 	public boolean autentica(int senha) {
 		if (this.senha == senha) {
@@ -22,5 +18,11 @@ public class Gerente extends Funcionario {
 
 	public void getSenha(int senha) {
 		this.senha = senha;
+	}
+
+	@Override
+	public double getBonificacao() {
+		
+		return 300;
 	}
 }

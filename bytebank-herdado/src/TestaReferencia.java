@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	 Gerente gerente = new Gerente();
 	 gerente.setSalario(3000);
 	 
-	 Funcionario f = new Funcionario();
+	 Funcionario f = new Gerente();
 	 f.setSalario(1000);
 	 
 	 EditorDeVideo editorDeVideo = new EditorDeVideo();
