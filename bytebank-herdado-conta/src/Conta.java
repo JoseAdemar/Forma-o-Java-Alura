@@ -1,5 +1,5 @@
 
-public abstract class Conta {
+public abstract class Conta{
 
 	protected double saldo;
     private int agencia;
@@ -9,7 +9,7 @@ public abstract class Conta {
 
     public Conta(int agencia, int numero){
         Conta.total++;
-       // System.out.println("O total de contas é " + Conta.total);
+       // System.out.println("O total de contas ï¿½ " + Conta.total);
         this.agencia = agencia;
         this.numero = numero;
         //this.saldo = 100;
