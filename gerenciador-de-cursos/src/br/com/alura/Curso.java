@@ -15,19 +15,44 @@ public class Curso {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public String getInstrutor() {
+
         return instrutor;
     }
 
     public List<Aula> getAulas() {
+
         return Collections.unmodifiableList(aulas);
     }
 
     public void adiciona(Aula aula){
+
         this.aulas.add(aula);
     }
 
+    public int getTempoTotal(){
+        int tempoTotal = 0;
+        for(Aula aula : aulas){
+            tempoTotal += aula.getTempo();
+        }
+        return  tempoTotal;
+    }
+
+    public int getTempoTotalComStreams(){
+       return this.aulas.stream().mapToInt(Aula::getTempo).sum();
+    }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "nome='" + nome + '\'' +
+                "CargaHoraria= :" + this.getTempoTotalComStreams()+
+                ", instrutor='" + instrutor + '\'' +
+                ", aulas=" + aulas +
+                '}';
+    }
 }
