@@ -25,6 +25,7 @@ public class OrdenaString {
 
         @Override
         public void accept(String s) {
+
             System.out.println(s);
         }
     }
