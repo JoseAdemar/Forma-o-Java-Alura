@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class OrdenaString {
     public static void main(String[] args) {
@@ -13,7 +14,10 @@ public class OrdenaString {
         palavras.add("caelum");
 
         //Essa expressão lambda faz a ordenação dos nomes
-        palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+        //palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+
+        //Método reference
+        palavras.sort(Comparator.comparing(String::length));
 
         // Expressão lambda para imprimir a lista utilizando a ordenação
         palavras.forEach(s -> System.out.println(s));
