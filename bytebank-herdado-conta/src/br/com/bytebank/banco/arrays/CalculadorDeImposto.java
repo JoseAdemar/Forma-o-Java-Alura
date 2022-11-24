@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.arrays;
+
 public class CalculadorDeImposto{
 
     private double totalImposto;

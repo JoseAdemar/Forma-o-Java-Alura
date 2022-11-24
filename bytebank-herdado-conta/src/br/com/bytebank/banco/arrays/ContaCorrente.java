@@ -1,3 +1,4 @@
+package br.com.bytebank.banco.arrays;
 
 public class ContaCorrente extends Conta implements Tributavel {
 

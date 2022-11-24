@@ -1,3 +1,4 @@
+package br.com.bytebank.banco.arrays;
 
 public abstract class Conta{
 
@@ -9,7 +10,7 @@ public abstract class Conta{
 
     public Conta(int agencia, int numero){
         Conta.total++;
-       // System.out.println("O total de contas � " + Conta.total);
+       // System.out.println("O total de contas � " + br.com.bytebank.banco.arrays.Conta.total);
         this.agencia = agencia;
         this.numero = numero;
         //this.saldo = 100;
@@ -76,4 +77,13 @@ public abstract class Conta{
         return Conta.total;
     }
 
+    @Override
+    public String toString() {
+        return "Conta{" +
+                "saldo=" + saldo +
+                ", agencia=" + agencia +
+                ", numero=" + numero +
+                ", titular=" + titular +
+                '}';
+    }
 }

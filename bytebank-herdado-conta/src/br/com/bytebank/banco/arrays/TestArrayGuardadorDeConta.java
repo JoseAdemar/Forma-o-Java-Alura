@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.arrays;
+
 public class TestArrayGuardadorDeConta {
     public static void main(String[] args) {
         GuardadorDeContas guardador = new GuardadorDeContas();

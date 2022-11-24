@@ -1,8 +1,11 @@
+package br.com.bytebank.banco.arrays;
+
 public class GuardadorDeContas {
     private Conta[] referencias;
     private int posicaoLivre;
 
     public GuardadorDeContas() {
+
         this.referencias = new Conta[10];
     }
 
@@ -12,10 +15,12 @@ public class GuardadorDeContas {
     }
 
     public int getQuantidadeDeElementos() {
+
         return this.posicaoLivre;
     }
 
     public Conta getContaReferencia(int posicao) {
+
         return this.referencias[posicao];
     }
 }

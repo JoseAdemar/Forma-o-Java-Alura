@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.arrays;
+
 public class TesteTributaveis {
     public static void main(String[] args) {
         ContaCorrente cc = new ContaCorrente(222, 333);

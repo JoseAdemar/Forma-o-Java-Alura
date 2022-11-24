@@ -1,3 +1,5 @@
+package br.com.bytebank.banco.arrays;
+
 public class TestArrayReferencia {
     public static void main(String[] args) {
         Conta[] contas = new Conta[5];
@@ -11,7 +13,7 @@ public class TestArrayReferencia {
         System.out.println(contas[1].getNumero());
 
         ContaPouPanca ref1 = (ContaPouPanca) contas[1];
-        //ContaCorrente ref2 = (ContaCorrente) contas[1];
+        //br.com.bytebank.banco.arrays.ContaCorrente ref2 = (br.com.bytebank.banco.arrays.ContaCorrente) contas[1];
 
         System.out.println(cc2.getNumero());
         System.out.println(ref1.getNumero());
