@@ -107,7 +107,6 @@ public abstract class Conta extends Object {
     		
     		return true;
     }
-    
     @Override
 	public String toString() {
 		return "Numero: " + this.numero + ", Agencia: " + this.agencia;
