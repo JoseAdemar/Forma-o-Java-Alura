@@ -1,21 +1,24 @@
 package br.com.bytebank.banco.test.util;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class Teste {
     public static void main(String[] args) {
-        int[] idades = new int[5];
+        Integer idadeRef = Integer.valueOf(29);
+        System.out.println(idadeRef.doubleValue());
 
-        String[] nomes = new String[5];
+        Double dRef = Double.valueOf(3.2);
+        System.out.println(dRef);
 
-        int idade = 29;
-        Integer idadeRef = Integer.valueOf(idade);
+        Boolean bRef = Boolean.TRUE;
+        System.out.println(bRef);
 
-        List<Integer> numeros = new ArrayList<>();
-        numeros.add(idadeRef);
+        Number bRefNumero = Float.valueOf(3.6F);
+        System.out.println(bRefNumero);
 
-        System.out.println(numeros);
+        Number bRefNumero1 = Integer.valueOf(36);
+        System.out.println(bRefNumero1);
 
-     }
+
+    }
 }
