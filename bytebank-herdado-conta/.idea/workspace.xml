@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a05c033-ce46-47f8-873f-88ca6c450b8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/especial/ContaEspecial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/CalculadorDeImposto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaCorrente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaPoupanca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/GuardadorDeContas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/GuardadorDeReferencias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/SaldoInsuficienteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/SeguroDeVida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Tributavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TestArrayReferencias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TestArrayString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteArrayDePrimitivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteContas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteGuardadorContas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteGuardadorReferencias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteSaca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteTributaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/NumeroDaContaComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/Teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/TesteArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/TesteArrayListListEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/TesteLambadas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/TesteWrappers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/bytebank-herdado-conta/br/com/bytebank/banco/test/util/TitularDaContaComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/TesteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/TesteArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/TesteArrayListListEquals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/TesteLambadas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/util/TesteWrappers.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +23,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Acer/Documents/WORKPLACE/FormacaoJavaAlura/bytebank-herdado-conta",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/Documents/WORKPLACE/FormacaoJavaAlura/bytebank-herdado-conta&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.test.util.Teste" />
